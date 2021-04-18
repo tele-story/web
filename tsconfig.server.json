@@ -1,0 +1,15 @@
+{
+	"compilerOptions": {
+		"module": "commonjs",
+		"target": "es2017",
+		"outDir": "server-build",
+		"strict": true,
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+		"skipLibCheck": true,
+		"incremental": true,
+		"typeRoots": ["node_modules/@types", "server/@types"]
+	},
+	"exclude": ["node_modules"],
+	"include": ["server"]
+}
